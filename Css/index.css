@@ -1,0 +1,138 @@
+
+body{
+  direction: rtl;
+  text-align: right !important;
+}
+.wrapper{
+  overflow: hidden;
+}
+.sidebar{
+  background-color: #2b2d2f;
+  border-left: 1px solid #7d7d7d;
+}
+nav{
+  height: 100vh;
+  position: relative;
+}
+nav .title{
+  height: auto;
+  background: #3e4042;
+  text-align: center;  
+}
+nav .nav-content .nav-Actions ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-content .nav-Actions ul li{
+  width: 10%;
+  height: 30px;
+  display: inline-block;
+  background: #3e4042;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  align-items: center;
+  border-radius: 4px;
+}
+nav .nav-content .nav-Actions ul li a{
+  color: white;
+  display: block;
+  width: 100%;
+}
+nav .nav-content > ul li{
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  line-height: 3; 
+  padding: 0 8px;
+  position: relative;
+  background: #3e4042;
+  color: white !important;
+  transition: all 500ms cubic-bezier(0.575, 0.985, 0.32, 1.355);
+  overflow: hidden;
+}
+nav .nav-content > ul li a{
+  width: 100%;
+  display: block;
+  color: white;
+}
+nav .nav-content > ul li::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav .nav-content > ul li:hover::before{
+  top: 150%;
+  height: 200%;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  background: #4a4d50;
+}
+nav .nav-content > ul li i:last-child{
+  position: absolute;
+  margin-left: -11px;
+  left: 0;
+  top: 15px;
+  font-size: 10px;
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+nav .nav-content > ul li:hover{
+  background: #484a4d;
+  color: #ccc;
+  transition: all 500ms cubic-bezier(0.575, 0.985, 0.32, 1.355);
+}
+nav .nav-content > ul li.active i.icon-arrow-right::before{
+  margin-left: 17px;
+  content: "\e021" !important;
+  font-size: 12px;  
+}
+nav .nav-content > ul li:not(.has-child):not(.active):hover i:last-child{
+  margin-left: 5px;
+  transition: all 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+nav footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.circle{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 3px solid;
+}
+nav footer a{
+  color: white !important;  
+  font-size: 11px;
+}
+.content{
+  height: 100vh;
+  background: #464646e3;
+  position: relative;
+}
+.content .toolbar{
+  background: #3e4042;
+  height: 62px;
+}
+.content .wrapper{
+  width: 98%;
+  margin: 0 auto;
+}
+.content .wrapper #topPosts{
+  height: 300px;
+  max-height: 300px;
+}
+.content .wrapper #topPosts img{
+  height: 100%;
+}
+.tournaments .card{
+  background: transparent;
+}

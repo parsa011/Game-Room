@@ -1,0 +1,43 @@
+body{
+    background: url(../Images/Loginbg.png);
+}
+.frmLogin{
+    background: #2b2d2f;
+    border-radius: 4px;
+}
+.form-title{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.pass-inp-group-text{
+    width: 42px;
+    justify-content: center;
+}
+.custom-control{
+    padding-right: 1.2rem !important;
+}
+.border-4{
+    border-width: 3px !important;
+}
+.site-policy li{
+    margin: 8px 40px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(212, 212, 212, 0.151);
+    color: white;
+    text-align: center;
+    line-height: 3 !important;
+    height: 40px;
+}
+footer p{
+    margin-bottom: 0 !important;
+}
+.site-alert{
+    margin-top: 1.45rem;
+}
