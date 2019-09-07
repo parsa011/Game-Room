@@ -115,6 +115,7 @@ nav footer a{
 }
 .content{
   height: 100vh;
+  overflow-y: scroll;
   background: #464646e3;
   position: relative;
 }
@@ -135,4 +136,11 @@ nav footer a{
 }
 .tournaments .card{
   background: transparent;
+}
+.online-streams{
+  height: 165px;
+}
+.online-streams .card,
+.online-streams .card img{
+  height: 164px;
 }
