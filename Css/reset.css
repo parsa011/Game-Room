@@ -47,21 +47,7 @@ ul {
     list-style: none;
 }
 
-blockquote, q {
-    quotes: none;
-    border-right: 3px solid #0581bc;
-    margin: 11px;
-    background: #e7e7e7;
-}
-blockquote >div{
-   line-height: 8px !important;
-   padding: 10px;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
+
 
 table {
     border-collapse: collapse;
