@@ -252,3 +252,22 @@ nav footer a{
   background: #2b2d2f;
   color: white;
 }
+.card-profile {
+  border-radius: 0;
+  border: 0;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
+}
+.card-profile .card-img-top {
+  border-radius: 0;
+}
+.card-profile .card-img-profile {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-top: -60px;
+  margin-bottom: 15px;
+  border: 5px solid #e6e5e1;
+}
+.card-profile .card-title small {
+  display: block;
+  font-size: 0.6em;
+}
