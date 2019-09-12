@@ -73,6 +73,7 @@ a {
 .f-12{
     font-size: 12px !important;
 }
+.f-10{font-size: 10px !important}
 .custom-control-label::after {
     right: -19px;
 }
