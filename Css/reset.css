@@ -41,9 +41,10 @@ body {
     line-height: 1;
     font-family: IRANSans !important;
     font-size: 13px !important;
-    color: white
+    color: white;
+    direction: rtl;
+    text-align: right !important;
 }
-
 ul {
     list-style: none;
 }
